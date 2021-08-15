@@ -17,6 +17,7 @@
   --font-m: 1rem;
   --font-l: 1.5rem;
   --font-xl: 2.0rem;
+  --font-letter-spacing: -0.03rem;
 
   --font-line-height: calc(var(--font-default) * 1.6);
 
@@ -39,6 +40,8 @@
 }
 
 html {
+  background: radial-gradient(circle at top, white, var(--color-bg));
+  letter-spacing: 
   scroll-behavior: smooth;
   font-size: var(--font-default);
   line-height: var(--font-line-height);
@@ -46,9 +49,7 @@ html {
 }
 
 body {
-  background: radial-gradient(circle at top, white, var(--color-bg));
   color: var(--color-default);
-  padding: var(--spacing-m);
   max-width: var(--spacing-maxwidth);
   margin: 0 auto;
 }
@@ -60,7 +61,8 @@ footer {
 }
 
 footer>.publisher {
-  max-height: 80px;
+  opacity: 75%;
+  max-height: 72px;
 }
 
 body > footer p {
@@ -99,6 +101,27 @@ cite {
   font-style: normal;
 }
 
+a {
+  color: var(--color-mid);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  }
+  
+  
+  a:hover {
+    color: var(--color-default);
+  }
+  
+  
+  
+p a, li a, figcaption a {
+  border-bottom: 1px solid var(--color-mid);
+}
+
+p a:hover, li a:hover, figcaption a:hover {
+  border-bottom: 1px solid var(--color-default);
+}
+
 /* -----------------------------------
 Headings
 -------------------------------------- */
@@ -106,12 +129,15 @@ Headings
 h1 {
   font-size: var(--font-xl);
   font-family: var(--font-display);
+  letter-spacing: var(--font-letter-spacing);
   line-height: 1.1em;
 }
 
 h2 {
   font-size: var(--font-l);
   font-family: var(--font-display);
+  letter-spacing: var(--font-letter-spacing);
+
   color: var(--color-mid);
 }
 
@@ -167,6 +193,10 @@ fieldset {
 
 textarea {
   resize: vertical;
+}
+
+label {
+  font-weight: bold;
 }
 
 /* ==========================================================================
@@ -253,6 +283,15 @@ textarea {
   margin-left: var(--spacing-m);
   height: 144px;
   float: right;
+}
+
+ul.specs li {
+  display: flex;
+  align-items: baseline;
+}
+
+ul.specs li label {
+  width: 6em;
 }
 
 /* ==========================================================================
