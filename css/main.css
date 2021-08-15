@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Godrita Medium";
-  src: url("/fonts/Gordita-medium.woff.woff2") format("woff2"),
-    url("/fonts/Gordita-medium.woff") format("woff");
-}
-
 :root {
   --font-body: sofia-pro, sans-serif, -apple-system-ui-serif, ui-serif, Georgia,
  serif;
