@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Godrita Medium";
   src: url("/fonts/Gordita-medium.woff.woff2") format("woff2"),
-       url("/fonts/Gordita-medium.woff") format("woff");
+    url("/fonts/Gordita-medium.woff") format("woff");
 }
 
 :root {
   --font-body: sofia-pro, sans-serif, -apple-system-ui-serif, ui-serif, Georgia,
     serif;
   --font-display: Godrita Medium, ui-sans-serif, Helvetica, Arial,
-    sans-serif;    
+    sans-serif;
   --font-mono: Courier;
 
 
@@ -41,8 +41,8 @@
 
 html {
   background: radial-gradient(circle at top, white, var(--color-bg));
-  letter-spacing: 
-  scroll-behavior: smooth;
+  letter-spacing:
+    scroll-behavior: smooth;
   font-size: var(--font-default);
   line-height: var(--font-line-height);
   font-family: var(--font-body);
@@ -66,8 +66,8 @@ footer>.publisher {
   max-height: 80px;
 }
 
-body > footer p {
-  font-size: var(--font-s); 
+body>footer p {
+  font-size: var(--font-s);
 }
 
 img {
@@ -106,20 +106,24 @@ a {
   color: var(--color-mid);
   text-decoration: none;
   transition: color 0.2s ease;
-  }
-  
-  
-  a:hover {
-    color: var(--color-default);
-  }
-  
-  
-  
-p a, li a, figcaption a {
+}
+
+
+a:hover {
+  color: var(--color-default);
+}
+
+
+
+p a,
+li a,
+figcaption a {
   border-bottom: 1px solid var(--color-mid);
 }
 
-p a:hover, li a:hover, figcaption a:hover {
+p a:hover,
+li a:hover,
+figcaption a:hover {
   border-bottom: 1px solid var(--color-default);
 }
 
@@ -218,8 +222,8 @@ label {
 }
 
 @media screen and (max-width: 600px) {
-.title-page {
-  display:none;
+  .title-page {
+    display: none;
   }
 }
 
@@ -229,7 +233,8 @@ label {
   text-transform: uppercase;
 }
 
-.author, .illustrator {
+.author,
+.illustrator {
   font-size: var(--font-m);
 }
 
@@ -242,13 +247,13 @@ label {
   padding: var(--spacing-xs) var(--spacing-s);
   border-radius: 0.69em;
   /* background display: inline-block; */
-  
+
   font-weight: bold;
   text-decoration: none;
-  
+
   background-color: var(--color-default);
   color: var(--color-accent);
-    
+
   cursor: pointer;
 }
 
@@ -273,9 +278,7 @@ label {
   /* max-width: 100%; */
 }
 
-.bio {
-
-}
+.bio {}
 
 .bio>img {
   border-radius: 100px;
