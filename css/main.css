@@ -5,11 +5,10 @@
 }
 
 :root {
-  --font-body: sofia-pro, sans-serif, -apple-system-ui-serif, ui-serif, Georgia,
-    serif;
   --font-display: Godrita Medium, ui-sans-serif, Helvetica, Arial,
-    sans-serif;
-  --font-mono: Courier;
+  sans-serif;
+  --font-body: sofia-pro, Helvetica, Arial, sans-serif;
+  --font-mono: Courier, monospace;
 
 
   --font-default: 18px;
@@ -17,6 +16,8 @@
   --font-m: 1rem;
   --font-l: 1.5rem;
   --font-xl: 2.0rem;
+  --font-xxl: 2.0rem;
+
   --font-letter-spacing: -0.02rem;
 
   --font-line-height: calc(var(--font-default) * 1.6);
@@ -210,9 +211,8 @@ label {
   text-align: center;
 }
 
-
 .title {
-  font-size: 3rem;
+  font-size: var(--font-xxl);
 }
 
 @media screen and (max-width: 600px) {
@@ -223,7 +223,7 @@ label {
 
 .subtitle {
   display: block;
-  font-size: 0.85rem;
+  font-size: var(--font-s);
   text-transform: uppercase;
 }
 
