@@ -50,6 +50,7 @@ html {
 
 body {
   color: var(--color-default);
+  padding: var(--spacing-s), 0;
   max-width: var(--spacing-maxwidth);
   margin: 0 auto;
 }
