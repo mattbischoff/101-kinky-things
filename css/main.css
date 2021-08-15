@@ -134,7 +134,7 @@ h1 {
 
 h2 {
   font-size: var(--font-l);
-  font-family: var(--font-display);
+  font-family: var(--font-body);
   letter-spacing: var(--font-letter-spacing);
 
   color: var(--color-mid);
