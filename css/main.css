@@ -5,9 +5,10 @@
 }
 
 :root {
-  --font-display: Godrita Medium, ui-sans-serif, Helvetica, Arial,
-  sans-serif;
-  --font-body: sofia-pro, Helvetica, Arial, sans-serif;
+  --font-body: sofia-pro, sans-serif, -apple-system-ui-serif, ui-serif, Georgia,
+ serif;
+  --font-display: sofia-pro, sans-serif, -apple-system-ui-serif, ui-serif, Georgia,
+   serif;
   --font-mono: Courier, monospace;
 
 
