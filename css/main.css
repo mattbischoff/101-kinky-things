@@ -218,7 +218,7 @@ label {
 
 .subtitle {
   display: block;
-  font-size: var(--font-s);
+  font-size: 1rem;
   text-transform: uppercase;
 }
 
