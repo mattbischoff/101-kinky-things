@@ -29,6 +29,7 @@
   --color-default: black;
   --color-mid: #6a4d43;
   --color-dim: #cba49a;
+  --color-selection: #cba49a;
 }
 
 * {
