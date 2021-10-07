@@ -29,7 +29,7 @@
   --color-default: black;
   --color-mid: #6a4d43;
   --color-dim: #cba49a;
-  --color-selection:  rgba(203, 164, 154, 0.8);
+  --color-selection:  rgba(203, 164, 154, 0.5);
 }
 
 * {
