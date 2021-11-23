@@ -198,6 +198,20 @@ label {
   font-weight: bold;
 }
 
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dt {
+  grid-column-start: 1;
+  font-weight: bold;
+}
+
+dd {
+  grid-column-start: 2;
+}
+
 /* ==========================================================================
    Custom classes
    ========================================================================== */
@@ -252,15 +266,6 @@ label {
   margin-left: var(--spacing-m);
   height: 144px;
   float: right;
-}
-
-ul.specs li {
-  display: flex;
-  align-items: baseline;
-}
-
-ul.specs li label {
-  width: 6em;
 }
 
 footer img.publisher {
